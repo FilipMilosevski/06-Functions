@@ -281,3 +281,85 @@ function draw()
 //   }
 // }
 // calculator()
+
+
+// function game() {
+//   let choices = ["GORE", "DOLE"]
+//   let kiki = Math.floor(Math.random()*2)
+//   let tamara = Math.floor(Math.random()*2)
+//   let filip = Math.floor(Math.random()*2)
+//   let show = choices[kiki]
+//   console.log("KIKI CHOICE: "+show);
+//   show = choices[tamara]
+//   console.log("TAMARA CHOICE: "+show);
+//   show = choices[filip]
+//   console.log("FILIP CHOICE: " +show)
+//   if (choices[kiki] == choices[tamara] == choices[filip]) {
+//     console.log("ITS TIE ! ");
+//   } else if (choices[kiki]==="GORE" && choices[tamara]==="DOLE" && choices[filip]==="DOLE") {
+//     console.log("KIKI WINS");
+//   } else if (choices[kiki]==="DOLE" && choices[tamara]==="GORE" && choices[filip]=="GORE") {
+//     console.log("KIKI WINS ");
+//   } else if (choices[tamara]==="GORE" && choices[kiki]==="DOLE" && choices[filip]==="DOLE") {
+//     console.log("TAMARA WINS");
+//   } else if(choices[tamara]==="DOLE" && choices[kiki]==="GORE" && choices[filip]==="GORE") {
+//     console.log("TAMARA WINS");
+//   } else if (choices[filip]==="GORE" && choices[kiki]==="DOLE" && choices[tamara]==="DOLE") {
+//     console.log("FILIP WINS");
+//   } else if (choices[filip]==="DOLE" && choices[kiki]==="GORE" && choices[tamara]==="GORE") {
+//     console.log("FILIP WINS");
+//   }
+
+// }
+
+
+
+
+
+// function game() {
+//   let choices = ["ROCK","PAPER","SCISSORS"]
+//   let player = Math.floor(Math.random()*3)
+//   let computer = Math.floor(Math.random()*3)
+//   let show = choices[player]
+//   console.log("PLAYER CHOICE: " +show);
+//   show = choices[computer]
+//   console.log("COMPUTER CHOICE: " +show);
+//   if (choices[player] == choices[computer]) {
+//     console.log("ITS TIE ! ! !");
+//   } else if (choices[player] === "ROCK" && choices[computer] === "SCISSORS") {
+//     console.log("PLAYER WINS ! ! !");
+//   } else if (choices[player] === "SCISSORS" & choices[computer] === "PAPER") {
+//     console.log("PLAYER WINS ! ! !");
+//   } else if (choices[player] === "PAPER" & choices[computer] === "ROCK") {
+//     console.log("PLAYER WINS ! ! !");
+//   } else if (choices[computer] === "ROCK" & choices[player] === "SCISSOR") {
+//     console.log("COMPUTER WINS ! ! !");
+//   } else if (choices[computer] === "SCISSORS" & choices[player] === "PAPER") {
+//     console.log("COMPUTER WINS ! ! !");
+//   } else if (choices[computer] === "PAPER" & choices[player] === "ROCK") {
+//     console.log("COMPUTER WINS ! ! !");
+//   }
+// }
+// game()
+
+
+// let arr = []
+// for (let i = 0; i <=10; i++) {
+//     arr.push(i)
+// }
+// console.log(arr);
+
+       
+
+
+// let arr1 = []
+// for (let i = 0; i < 3; i++) {
+//   arr1.push([]) ;
+//   for (let j = 0; j < 7; j++) {
+//     arr1[i].push(j)    
+//   }
+// }
+// console.log(arr1);
+// console.table(arr1)
+
+
