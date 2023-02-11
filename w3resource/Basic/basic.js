@@ -38,6 +38,7 @@
 
 
 
+
 ///   2. Write a Javascript function that reverse a number.
 //  example x = 32243;
 // expected output : 34223
@@ -73,6 +74,7 @@
 // console.log(reversenumber(345652));
 // console.log(reversenumber(123456));
 
+
                                      ///// VO EDNA LINIJA
 // function ReverseNumber2(x) {
 //   let y = x.toString().split("").reverse().join("");
@@ -96,6 +98,7 @@
 
 
 
+
 /////   4. Write a Javascript conditional statement to find the sign of product
 /// of three products
 /// sample numbers : 3, -7 , 2
@@ -110,6 +113,7 @@
 // } else {
 //   console.log("The sign is -");
 // }
+
 
 
 
@@ -131,7 +135,7 @@
 
 
 ////////////////////////////////////MATH  5. Write a Javascript function to calculate
-/// the sum of values in an array.
+// / the sum of values in an array.
 // function sum(arr) {
 //   let sumofarr=0;
 //   for (const element of arr) {
@@ -204,21 +208,21 @@ function draw()
 /// test date: console.log(abbrev_name("Robin Singh"))
 
 // let fm = prompt("enter name")
-// let fm = "Robin Singh"  
-// let splitname = fm.split(" ")
+let fm = "Robin Singh"  
+let splitname = fm.split(" ")
 // console.log(splitname);
-// console.log(splitname[0]+ " " +splitname[1][0]+".");
+console.log(splitname[0]+ " " +splitname[1][0]+".");
 
 
-// function abbrev_name(fullname) {
-//   let abbrevname = "";
-//   let splitname = fullname.split(" ")
-//   abbrevname = splitname[0]+ " " +splitname[1][0]+"."
+function abbrev_name(fullname) {
+  let abbrevname = "";
+  let splitname = fullname.split(" ")
+  abbrevname = splitname[0]+ " " +splitname[1][0]+"."
 
 
-//   return abbrevname;
-// }
-// console.log(abbrev_name("Robin Sighn"));
+  return abbrevname;
+}
+console.log(abbrev_name("Robin Sighn"));
 // console.log(abbrev_name(prompt("ENTER A NAME")));
 
 
@@ -251,8 +255,6 @@ function draw()
 // fibonacci(n1)
 
 
-
-
 // function calculator() {
 //   let n1= parseInt(prompt("ENTER A NUMBER"))
 //   let n2= parseInt(prompt("ENTER A NUMBER"))
@@ -281,6 +283,7 @@ function draw()
 //   }
 // }
 // calculator()
+
 
 
 // function game() {
@@ -350,8 +353,14 @@ function draw()
 // console.log(arr);
 
        
+// let arr = []
+// for (let i = 0; i <=10; i++) {
+//   arr.push(i)
 
+  
+// }
 
+// console.log(arr);
 // let arr1 = []
 // for (let i = 0; i < 3; i++) {
 //   arr1.push([]) ;

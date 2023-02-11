@@ -45,6 +45,8 @@
 // console.log(rectangle(5,6));
 
 
+
+
 //////////////////////////////6 perimetar 
 // function circle(rad) {
 //   return console.log(`Perimeter: ${2*Math.PI * rad}, Area: ${Math.PI *rad*rad}`)  
@@ -73,6 +75,8 @@
 //   return Math.floor(Math.random()*end)+start;
 // }
 // console.log(getran(1,6));
+
+
 
 
 // function ranum() {
@@ -122,6 +126,7 @@
 
 
 
+
 //////////////////////////11 fibonachi
 // function fibonacci(n) {
 //   let n1=0;
@@ -166,7 +171,6 @@
 
 
 
-
 ///////////////////////13 broj pogolem pomal ili ednakov
 
 
@@ -183,7 +187,6 @@
 
 
 
-
 // function gre(x,y,z) {
 //   if (x>=20 && (x<y || x<z)){
 //     return true;
@@ -196,7 +199,10 @@
 //   }
 //   return false;
 // }
-// console.log(gre(20,30,60));
+// console.log(gre(20,30,60));   ///true
+
+// console.log(gre(19,18,60));   ///false
+
 
 
 // function gre(x,y,z) {
@@ -210,4 +216,6 @@
 // gre(23,45,10)
 // gre(23,23,10)
 // gre(21,66,75)
+
+
 
